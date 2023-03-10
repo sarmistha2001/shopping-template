@@ -147,8 +147,17 @@ padding-top: 5px;}
         letter-spacing: 5px;
     }
     .sub-footer3{
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
         margin-bottom:5px;
         
+    }
+    .s{
+        margin-right: 50px;
+        width: 200px;
+    }
+    .r{
+        margin-right: -150px;
     }
     ul{
         list-style: none;
@@ -400,7 +409,71 @@ main{
         display: grid;
         grid-template-columns: 12fr;
      }
-     
+     .button-footer1{
+    
+    padding:15px;
+    margin: unset;margin-left: -100px;
+    width: 200px;
+    margin-right: 20px;
+    }
+    .button-footer2{
+        width:unset;
+        background-color: rosybrown;
+        color: white;
+        padding: 15px;
+        margin-right: -100px;
+
+    }
+    .sub-footer1{
+        display: grid;
+       grid-template-columns: 12fr;
+       margin-left: 30px;
+       
+    }
+    .sub-footer2{
+        display: unset;
+        letter-spacing: unset;
+        margin-top: 30px;
+        margin-bottom: 30px;
+       
+    }
+   
+    
+    .s{
+        margin-right: unset;
+        width: 200px;
+    }
+    .r{
+        margin-right: unset;
+    }
+    .sub-footer3{
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        margin-bottom:unset;
+        margin-left:-150px;
+        
+    }
+    ul{
+        list-style: none;
+        padding-top: unset;
+        padding-bottom: unset;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .m{
+        margin-top: 150px;
+    }
+    body{
+        width:100%;
+        
+    }
+    .h{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+     .s7{
+        display: none;
+     }
         }
 
          
@@ -678,10 +751,11 @@ Summer collection</pre>
                     
 <footer>
     <div class="upper">
-     <h3>want style ideas and treats?</h3></div>
-     <div class="upper1"><span class="button-footer1">Enter Email</span><span class="button-footer2">Subscribe</span></div>
+     <h3 class="h">want style ideas and treats?</h3></div>
+     <div class="upper1"><span class="button-footer1 ">Enter Email</span><span class="button-footer2">Subscribe</span></div>
      <div class="footer-last">
     <div class="sub-footer1">
+        <div>
        <div><h3><b><font face="Arial">Shopper.</font></b></h3>
         <div class="sub-footer2"><span class="bi bi-facebook"></span>
             <span class="bi bi-youtube">
@@ -691,8 +765,10 @@ Summer collection</pre>
                 </span>
          </span></div>
      </div>
+     </div>
     </div>
     <div class="sub-footer3">
+        <div class="s m">
      <ul>
         <li><b>SUPPORT</b></li>
         <li>contact us</li>
@@ -701,7 +777,7 @@ Summer collection</pre>
         <li>Shipping & Return</li>
      </ul>
      </div>
-     <div>
+     <div class="s m">
         <ul>
             <li><b>SHOP</b></li>
             <li>Mens shopping </li>
@@ -710,7 +786,7 @@ Summer collection</pre>
             <li>Discounts </li>
          </ul>
      </div>
-     <div>
+     <div class="s">
         <ul>
             <li><b>COMPANY</b></li>
             <li>Our Story </li>
@@ -719,15 +795,15 @@ Summer collection</pre>
             <li>Pivacy & Cookie policy</li>
          </ul>
      </div>
-     <div>
+     <div class="r">
         <ul>
-            <li><b>Contact</b> </li>
+            <li><b>CONTACT</b> </li>
             <li>1-202-555-0105</li>
             <li>1-202-555-0106</li>
             <li>help@shopper.com</li>
          </ul>
      </div>
-     
+    </div> 
 </footer>
 
 <script src="./node_modules/jquery/dist/jquery.js"></script>
